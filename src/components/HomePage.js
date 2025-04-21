@@ -157,7 +157,7 @@ function HomePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="dot-font"
-                  style={{ textDecoration: "none", color: "aqua" }}
+                  style={{ textDecoration: "none"}}
                 >
                   {book.title}
                 </a>
@@ -184,7 +184,7 @@ function HomePage() {
                   target="_blank"
                   rel="noopener noreferrer"
                   className="dot-font"
-                  style={{ textDecoration: "none", color: "aqua" }}
+                  style={{ textDecoration: "none"}}
                 >
                   {movie.title}
                 </a>
