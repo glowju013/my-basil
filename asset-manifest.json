@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/leeyunju.com/static/css/main.901d99ec.css",
+    "main.js": "/leeyunju.com/static/js/main.f0e5307d.js",
+    "static/js/453.900274f5.chunk.js": "/leeyunju.com/static/js/453.900274f5.chunk.js",
+    "static/media/logo192.png": "/leeyunju.com/static/media/logo192.7a2a81e9c7135f3392fc.png",
+    "index.html": "/leeyunju.com/index.html",
+    "main.901d99ec.css.map": "/leeyunju.com/static/css/main.901d99ec.css.map",
+    "main.f0e5307d.js.map": "/leeyunju.com/static/js/main.f0e5307d.js.map",
+    "453.900274f5.chunk.js.map": "/leeyunju.com/static/js/453.900274f5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.901d99ec.css",
+    "static/js/main.f0e5307d.js"
+  ]
+}
