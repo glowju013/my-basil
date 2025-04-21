@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.dot-font {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 30px;
+ 
+  text-align: left;
+  margin-top: 50px;
+  margin-left: 10px;
+  color:inherit;
+  
+}
+
+.dot-font a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.typing-effect {
+  display: inline-block;
+  font-family: 'Press Start 2P', cursive;
+
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 2px solid aqua;
+  animation: typing 3s steps(40, end) forwards, blink 0.7s step-end infinite;
+  width: 0;
+  text-decoration: none;  /* 밑줄 제거 */
+}
+
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
+}
+
+@keyframes blink {
+  50% { border-color: transparent; }
+}

@@ -1,0 +1,150 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+body {
+  background-color: #ffffff;
+  color: #000000;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+body.dark-mode {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+.dark-mode textarea {
+  background-color: #1e1e1e;
+  color: #ffffff;
+  border-color: #555;
+}
+
+.dark-mode input[type="file"] {
+  color: #f1f1f1;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+h1 {
+  font-size:medium;
+}
+
+.responsive-image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: calc(100vh- 100px);
+  overflow:hidden;
+}
+
+.responsive-image {
+  width:100%;
+  max-width:80vw;
+  max-height: 80vh;
+  height:auto;
+  object-fit:contain;
+  border: 1px solid #ccc;
+  
+}
+
+.responsive-textarea {
+  width: 100%;
+  margin-top: 5px;
+  max-width: 800px;
+  min-height: 120px;
+  padding:10px;
+  font-size: 1rem;
+  resize: vertical;
+  box-sizing: border-box;
+  border:1px solid #61dafb;
+}
+
+.date-heading {
+  font-size: 1rem;
+  color:violet;
+  font-weight: normal;
+  margin-bottom: 1rem;
+  display: flex;
+
+}
+
+.button-heading {
+   display: flex;
+   gap: 0.2rem;
+}
+
+.button-heading button {
+  font-size: 0.7rem;  
+  background-color: palegoldenrod;
+  margin-bottom: 1rem;
+}
+
+.button-heading button:disabled {
+  cursor: not-allowed;
+}
+
+.fixed-date-controls {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 0.5rem;
+ 
+  padding: 0.75rem;
+  border-radius: 8px;
+
+}
+
+
+.date-label {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color:#61dafb;
+}
+
+
+
+.search-date-button {
+  font-size: 0.75rem;
+  font-weight: bold;
+  color:#61dafb;
+  position: relative;
+  
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
