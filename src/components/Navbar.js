@@ -30,12 +30,12 @@ function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/basil" onClick={toggleSidebar}>
+              <Link  onClick={toggleSidebar}>
                 바질
               </Link>
             </li>
             <li>
-              <Link to="/churu" onClick={toggleSidebar}>
+              <Link onClick={toggleSidebar}>
                 츄르
               </Link>
             </li>
