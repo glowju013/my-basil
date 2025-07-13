@@ -1,14 +1,11 @@
 import './App.css';
 import HomePage from './components/HomePage';
-import ImageUploader from './components/ImageUploader';
 import {HashRouter as Router, Routes, Route} from "react-router-dom";
-import Navbar from "./components/Navbar"
 
 function App() {
   return (
     <Router>
       <div className="App">
-        <Navbar />
         <main style={{ paddingTop: "80px" }}>
           <Routes>
             <Route path="/" element={<HomePage/>} />

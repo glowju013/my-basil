@@ -17,7 +17,6 @@ function HomePage() {
 
     const changeFontColor = () => {
         const randomColor = colorList[Math.floor(Math.random() * colorList.length)];
-        console.log("dsfsfsdfsfsa",randomColor);
         setFontColor(randomColor);
     };
 
@@ -31,24 +30,24 @@ function HomePage() {
 
     const bookList = [
       {
-        title: "Fatigue Society",
-        url: "https://product.kyobobook.co.kr/detail/S000000569813",
+        title: "Siddhartha",
+        url:"https://product.kyobobook.co.kr/detail/S000000620195",
       },
       {
-        title: "Ta eis heauton",
-        url: "https://product.kyobobook.co.kr/detail/S000214395953",
+        title: "Demonstration of love are small",
+        url:"https://product.kyobobook.co.kr/detail/S000001114895"
       },
       {
-        title: "NOTES SUR LE CINEMATOGRAPHE",
-        url: "https://product.kyobobook.co.kr/detail/S000000570613",
-      },
-      {
-        title: "Contradiction",
-        url: "https://product.kyobobook.co.kr/detail/S000001632467",
-      },
+        title: "2025 16th Young Writers Award",
+        url:"https://product.kyobobook.co.kr/detail/S000216176410",
+      }
     ];
 
     const movieList = [
+      {
+        title:"Nausicaa Of The Valley Of The Winds",
+        url:"https://pedia.watcha.com/ko-KR/contents/mYdEjA5"
+      },
       {
         title: "Big Fish",
         url: "https://pedia.watcha.com/ko-KR/contents/mqW9aeW",
