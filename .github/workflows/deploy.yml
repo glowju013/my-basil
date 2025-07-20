@@ -37,7 +37,7 @@ jobs:
         env:
           GH_NAME: glowju013
           GH_EMAIL: 76641389+glowju013@users.noreply.github.com
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_PAT: ${{ secrets.GH_PAT }}
         run: npm run deploy
         
         
