@@ -33,7 +33,7 @@ jobs:
         run: |
           echo "https://leeyunju.com" > build/CNAME
           git config --global user.email "nevertheless113@naver.com"
-          git config --global user.name "glowju013"
+          git config --global user.name "shining013"
           git checkout gh-pages 
           cp build/CNAME CNAME
           git add CNAME
