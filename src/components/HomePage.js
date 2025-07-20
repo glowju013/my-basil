@@ -119,12 +119,12 @@ function HomePage() {
         url: "https://pedia.watcha.com/ko-KR/contents/my5YGwO",
       },
       {
-        title: "Princess Mononoke",
-        url: "https://pedia.watcha.com/ko-KR/contents/mnWJ1n5",
-      },
-      {
         title: "happy end",
         url: "https://pedia.watcha.com/ko-KR/contents/mW9pL6K",
+      },
+      {
+        title: "Princess Mononoke",
+        url: "https://pedia.watcha.com/ko-KR/contents/mnWJ1n5",
       }
     ];
 
