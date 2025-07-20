@@ -114,10 +114,7 @@ function HomePage() {
         title: " your name.",
         url: "https://pedia.watcha.com/ko-KR/contents/mOo0PkN",
       },
-      {
-        title: "happy end",
-        url: "https://pedia.watcha.com/ko-KR/contents/mW9pL6K",
-      },
+      
       {
         title: "Princess Mononoke",
         url: "https://pedia.watcha.com/ko-KR/contents/mnWJ1n5",
@@ -125,6 +122,10 @@ function HomePage() {
       {
         title: "Spirited Away",
         url: "https://pedia.watcha.com/ko-KR/contents/my5YGwO",
+      },
+      {
+        title: "happy end",
+        url: "https://pedia.watcha.com/ko-KR/contents/mW9pL6K",
       },
     ];
 
