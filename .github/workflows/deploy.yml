@@ -39,6 +39,7 @@ jobs:
           git push origin main
 
       - name: Deploy to Github Pages
+        run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
-        run: npm run deploy
+        
