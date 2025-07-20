@@ -3,9 +3,9 @@ const { execSync } = require('child_process');
 
 const name = process.env.GH_NAME;
 const email = process.env.GH_EMAIL;
-const token = process.env.GH_TOKEN;
+const token = process.env.GH_PAT;
 
-const repo = 'https://${token}@github.com/glowju013/my-basil.git';
+const repo = `https://${token}@github.com/glowju013/my-basil.git`;
 
 const cmd = `npx gh-pages -d build -u "${name} <${email}>" --repo ${repo}`;
 
