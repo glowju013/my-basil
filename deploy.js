@@ -7,7 +7,7 @@ const token = process.env.GH_TOKEN;
 
 const repo = 'https://${token}@github.com/glowju013/my-basil.git';
 
-const command = `npx gh-pages -d build -u "${name} <${email}>" --repo ${repo}`;
+const cmd = `npx gh-pages -d build -u "${name} <${email}>" --repo ${repo}`;
 
 try {
   console.log("🚀 Deploying to GitHub Pages...");
