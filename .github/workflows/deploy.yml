@@ -22,20 +22,16 @@ jobs:
         run: npm install
 
       - name: Build project
-        run: npm run build
+        run: |
+          echo "leeyunju.com" > public/CNAME
+          npm run build
+
+      - name: Configure Git Identity
+        run: |
+          git config --global user.name "glowju013"
+          git config --global user.email "nevertheless113@naver.com"
 
       - name: Deploy to Github Pages
-        run: npm run deploy
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-      - name: Set custom domain
-        run: |
-          echo "https://leeyunju.com" > build/CNAME
-          git config --global user.email "nevertheless113@naver.com"
-          git config --global user.name "shining013"
-          git checkout gh-pages 
-          cp build/CNAME CNAME
-          git add CNAME
-          git commit -m "Add custom domain"
-          git push
+        run: npm run deploy
