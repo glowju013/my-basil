@@ -75,12 +75,12 @@ function HomePage() {
         url:"https://pedia.watcha.com/ko-KR/contents/mYdEjA5"
       },
       {
-        title: "Big Fish",
-        url: "https://pedia.watcha.com/ko-KR/contents/mqW9aeW",
-      },
-      {
         title: "Swing girls",
         url: "https://pedia.watcha.com/ko-KR/contents/m15GeNO",
+      },
+      {
+        title: "Big Fish",
+        url: "https://pedia.watcha.com/ko-KR/contents/mqW9aeW",
       },
       {
         title: "Flow",
