@@ -120,12 +120,12 @@ function HomePage() {
         url: "https://pedia.watcha.com/ko-KR/contents/mnWJ1n5",
       },
       {
-        title: "Spirited Away",
-        url: "https://pedia.watcha.com/ko-KR/contents/my5YGwO",
-      },
-      {
         title: "happy end",
         url: "https://pedia.watcha.com/ko-KR/contents/mW9pL6K",
+      },
+      {
+        title: "Spirited Away",
+        url: "https://pedia.watcha.com/ko-KR/contents/my5YGwO",
       },
     ];
 
