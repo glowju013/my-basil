@@ -4,7 +4,7 @@ import "./DotFont.css"
 function HomePage() {
     const [showBooks, setShowBooks] = useState(false);
     const [showMovies, setShowMovies] = useState(false);
-    const [fontColor, setFontColor] = useState("aqua");
+    const [fontColor, setFontColor] = useState("whitesmoke");
 
     const colorList = [
       "aliceblue",
