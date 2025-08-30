@@ -9,13 +9,11 @@ function HomePage() {
     const colorList = [
       "aliceblue",
       "darkviolet",
-      "forestgreen",
       "gold",
       "greenyellow",
       "honeydew",
       "khaki",
       "lavender",
-      "lawngreen",
       "lightblue",
       "mediumseagreen",
       "midnightblue",
