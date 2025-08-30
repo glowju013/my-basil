@@ -6,11 +6,9 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <main style={{ paddingTop: "80px" }}>
+        <main className="app-main">
           <Routes>
             <Route path="/" element={<HomePage/>} />
-            {/* <Route path="/basil"  element={<ImageUploader category="basil" />} />
-            <Route path="/churu" element={<ImageUploader category="churu"/>}/> */}
           </Routes>
         </main>
       </div>
