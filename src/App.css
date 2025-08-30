@@ -45,6 +45,11 @@ body.dark-mode {
   color: white;
 }
 
+.app-main {
+  min-height: 100dvh;
+  width: 100%;
+}
+
 .App-link {
   color: #61dafb;
 }
