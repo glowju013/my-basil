@@ -69,6 +69,10 @@ function HomePage() {
 
     const movieList = [
       {
+        title:"Chainsaw Man - The Movie: Reze Arc",
+        url:"https://pedia.watcha.com/ko-KR/contents/m5mYbJz"
+      },
+      {
         title:"Nausicaa Of The Valley Of The Winds",
         url:"https://pedia.watcha.com/ko-KR/contents/mYdEjA5"
       },
