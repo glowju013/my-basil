@@ -175,7 +175,7 @@ function HomePage() {
           onClick={toggleBookList}
           style={{ cursor: "pointer" }}
         >
-          📚 Recently I read... {showBooks ? "▲" : "▼"}
+          Recently I read... {showBooks ? "▲" : "▼"}
         </h2>
         {showBooks && (
           <ul
@@ -202,7 +202,7 @@ function HomePage() {
           onClick={toggleMovieList}
           style={{ cursor: "pointer" }}
         >
-          🎥 My favorite... {showMovies ? "▲" : "▼"}
+        My favorite movie... {showMovies ? "▲" : "▼"}
         </h2>
         {showMovies && (
           <ul
