@@ -159,31 +159,37 @@ function HomePage() {
       <h1 className="dot-font">
         <a
           href="https://blog.naver.com/013churrr"
-          className="typing-effect"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://blog.naver.com/013churrr
+          blog
         </a>
       </h1>
       <h1 className="dot-font">
         <a
           href="https://youtube.com/@churrr-e2q?si=HH9mqtByyz1tMGz6"
-          className="typing-effect"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://youtube.com/013churrr
+          youtube
         </a>
       </h1>
       <h1 className="dot-font">
         <a
           href="https://github.com/glowju013"
-          className="typing-effect"
           target="_blank"
           rel="noopener noreferrer"
         >
-          https://github.com/glowju013
+          github
+        </a>
+      </h1>
+      <h1 className="dot-font">
+        <a
+          href="https://poteau.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          poteau(photo sqaure cropper)
         </a>
       </h1>
       <h2
