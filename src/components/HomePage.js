@@ -149,6 +149,11 @@ function HomePage() {
 
   return (
     <div className="home-container" style={{ color: fontColor }}>
+      <img
+        src={`${process.env.PUBLIC_URL}/short.png`}
+        alt="pixel art"
+        style={{ imageRendering: "pixelated", marginBottom: "1rem" }}
+      />
       <h1
         className="dot-font"
         onClick={changeFontColor}
